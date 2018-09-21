@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="talkOne" width="116" height="38" states="up,down" xmlns:e="http://ns.egret.com/eui">
+	<e:Rect width="100%" height="100%" x="0" y="0" fillColor="0xa56161" strokeWeight="3"/>
+	<e:Label fontFamily="微软雅黑" textFlow="{data.flow}" textColor.down="0xFFFFFF" textColor.up="0x666666"   size="20" textColor="0xFFFF00" verticalAlign="middle" verticalCenter="0" horizontalCenter="0"/>
+</e:Skin>

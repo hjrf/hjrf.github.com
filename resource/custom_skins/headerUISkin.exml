@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="homeUISkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupHeader" width="478" height="104" x="0" y="0">
+
+		<e:Label textFlow="{data.name}"   textColor="0x773939"/>
+		<e:ProgressBar id="HP" maximum="{data.HPMax}" value="{data.HP}"  x="0" y="30" width="212" skinName="progressHP"/>
+		<e:ProgressBar id="MP" maximum="{data.MPMax}" value="{data.MP}" x="0" y="50" width="212"/>
+		<e:ProgressBar id="PP" maximum="{data.PPMax}" value="{data.PP}" x="0" y="71" width="212" skinName="progressPP"/>
+
+	</e:Group>
+
+</e:Skin>

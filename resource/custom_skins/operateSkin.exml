@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="operateSkin" width="116" height="68" xmlns:e="http://ns.egret.com/eui">
+	<e:Rect width="100%" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x4c2828" strokeColor="0xbf7878" strokeWeight="2"/>
+	<e:Label fontFamily="微软雅黑" text="{data.name}" size="20" textColor="0xFFFF00" verticalAlign="middle" textAlign="center" left="0" right="0" top="0" bottom="0"/>
+</e:Skin>

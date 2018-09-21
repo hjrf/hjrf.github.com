@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="functionButton" xmlns:e="http://ns.egret.com/eui" states="up,down" height="50" width="110">
+	<e:Rect height="100%" width="100%" x="0" y="0"  anchorOffsetY="0" fillColor="0x5b4a4a" strokeWeight="5" strokeColor="0x3a1818"/>
+	<e:Label textFlow="{data.flow}"  textAlign="center" horizontalCenter="0" verticalCenter="0" size="25"/>
+
+	<e:Label text="{data.count}"   anchorOffsetY="0" height="44" anchorOffsetX="0" width="19" x="79" y="0"/>
+</e:Skin>

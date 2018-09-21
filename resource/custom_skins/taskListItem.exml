@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="taskListItem" width="328" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillColor="0xad8585" left="0" right="0" top="0" bottom="0" strokeWeight="3" strokeColor="0xd10c0c" strokeAlpha="1" ellipseWidth="32"/>
+	<e:Label id="label" textFlow="{data.flow}" size="13" left="0" top="0" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="100%" width="70%"/>
+	<e:Button id="btnSubmit" label="提交" y="16" anchorOffsetY="0" height="33" anchorOffsetX="0" width="86" right="0" skinName="buttonCommonSkin"/>
+	<e:Button id="btnGiveUP" label="放弃" y="65" anchorOffsetY="0" height="33" anchorOffsetX="0" width="84" right="0" skinName="buttonCommonSkin"/>
+</e:Skin>

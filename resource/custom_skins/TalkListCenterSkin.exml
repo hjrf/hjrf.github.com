@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="herosListIRSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="90"
+        height="90">
+	<e:Rect id="rectAction" strokeWeight="4" strokeAlpha="0" anchorOffsetY="0" ellipseWidth="57" ellipseHeight="0"
+	        strokeColor="0x040f06" top="0" left="0" width="100%" height="100%"  fillColor="0x3f3434"/>
+	<e:Label size="20" textFlow="{data.flow}" verticalAlign="middle" bold="true" top="0"
+	          left="0" right="0" bottom="0" textAlign="center"/>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="tabButton" xmlns:e="http://ns.egret.com/eui" states="up,down" height="50" width="110">
+	<e:Rect height="100%" width="100%" x="0" y="0"  anchorOffsetY="0" fillColor="0x5b4a4a" strokeWeight="5" strokeColor="0x3a1818"/>
+	<e:Label text="{data}" textColor.down="0xFFFFFF" textColor.up="0x666666"  textAlign="center" horizontalCenter="0" verticalCenter="0" size="25"/>
+</e:Skin>

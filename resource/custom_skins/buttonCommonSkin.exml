@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="buttonCommonSkin" xmlns:e="http://ns.egret.com/eui" states="up,down,disabled" height="50" width="110">
+	<e:Rect height="100%" width="100%" x="0" y="0" anchorOffsetY="0" fillColor="0x5b4a4a" strokeWeight="5"
+	        strokeColor="0x3a1818" />
+	<e:Label id="labelDisplay" top="0" bottom="0" size="20" fontFamily="KaiTi"
+	         textColor="0xFFFFFF" text="" verticalAlign="middle"  textAlign="center" horizontalCenter="0"/>
+</e:Skin>

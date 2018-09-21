@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="profileUISkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect height="429" width="96%" y="110" fillColor="0x7f5757" anchorOffsetY="0" horizontalCenter="0" />
+	<e:ViewStack height="300" width="95%" y="240" id="stackBox" anchorOffsetX="0" anchorOffsetY="0" selectedIndex="1"
+	             horizontalCenter="0">
+		<e:Group id="groupAttr" anchorOffsetY="0" height="300" width="95%" horizontalCenter="0">
+			<e:Rect height="75" width="100%" y="199" anchorOffsetY="0" fillColor="0x542f2f" horizontalCenter="0" strokeWeight="9"
+			        strokeColor="0x2d0a0a" />
+			<e:Scroller id="scrAttr" height="193.67" width="99%" y="0" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+				<e:viewport>
+					<e:List id="listAttr" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="100%">
+						<e:layout>
+							<e:VerticalLayout/>
+						</e:layout>
+					</e:List>
+				</e:viewport>
+			</e:Scroller>
+			<e:Scroller height="54" width="95%" y="209" id="scrBuff" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+				<e:viewport>
+					<e:List id="listBuff" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="100%">
+						<e:layout>
+							<e:HorizontalLayout/>
+						</e:layout>
+					</e:List>
+				</e:viewport>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="groupNeigong" anchorOffsetY="0" height="300" width="95%" horizontalCenter="0">
+			<e:Label id="labelNeigong" text="内功名字"></e:Label>
+			<e:Button id="btnTupo" label="突破" anchorOffsetX="0" width="126" x="306" y="0" skinName="buttonCommonSkin"></e:Button>
+			<e:Button id="btnNeixiu" label="内修" anchorOffsetX="0" width="126" x="306" y="70" skinName="buttonCommonSkin"></e:Button>
+		</e:Group>
+		<e:Group id="groupEquip" anchorOffsetY="0" height="300" width="95%" horizontalCenter="0">
+			<e:Rect height="75" width="100%" y="199" anchorOffsetY="0" fillColor="0x542f2f" horizontalCenter="0" strokeWeight="9"
+			        strokeColor="0x2d0a0a" />
+			<e:Scroller id="scrEquipAttr" height="193.67" width="99%" y="0" anchorOffsetX="0" anchorOffsetY="0"
+			            horizontalCenter="0">
+				<e:viewport>
+					<e:List id="listEquipAttr" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="100%">
+						<e:layout>
+							<e:VerticalLayout/>
+						</e:layout>
+					</e:List>
+				</e:viewport>
+			</e:Scroller>
+			<e:Scroller height="54" width="95%" y="209" id="scrEquip" horizontalCenter="0">
+				<e:viewport>
+					<e:List id="listEquip">
+						<e:layout>
+							<e:HorizontalLayout/>
+						</e:layout>
+					</e:List>
+				</e:viewport>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="groupSkill" anchorOffsetY="0" height="300" width="100%">
+			<e:Scroller id="scrSkillAttr" height="307" width="95%" y="0" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"
+			            x="0">
+				<e:viewport>
+					<e:List id="listSkillAttr" y="0" width="100%" height="100%">
+						<e:layout>
+							<e:VerticalLayout/>
+						</e:layout>
+					</e:List>
+				</e:viewport>
+			</e:Scroller>
+		</e:Group>
+	</e:ViewStack>
+	<e:TabBar id="tabBox" height="50" width="95%" y="145" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0"
+	          scaleX="1" scaleY="1">
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:TabBar>
+	<e:Button id="btnReturn" label="返回" x="439" y="110">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="90%" height="90%" width.down="100%" height.down="100%" source="close_png" source.down="close_png"
+				         source.disabled="close_png" horizontalCenter="-1.5" verticalCenter="-1.5" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>
