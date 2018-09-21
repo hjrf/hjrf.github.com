@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="goodsBoxListIRSkin" width="110" height="110" xmlns:e="http://ns.egret.com/eui">
-	<e:Rect left="0" right="0" top="0" bottom="0" strokeWeight="3" strokeColor="0xd10c0c" strokeAlpha="1" ellipseWidth="32" fillColor="0x382525"/>
-	<e:Label textFlow="{data.flow}" size="13" left="0" right="0" top="0" bottom="0" textAlign="center" verticalAlign="middle"/>
-	<e:Label text="已装备" visible="{data.isEquip}" size="13" left="48" right="0" top="0" bottom="70" textAlign="center" verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0"/>
-
-</e:Skin>

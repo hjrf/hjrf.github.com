@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="workitem" width="220" height="38" xmlns:e="http://ns.egret.com/eui">
-	<e:Rect left="0" right="0" top="0" bottom="0"/>
-	<e:Label fontFamily="微软雅黑" textFlow="{data.flow}" size="20" verticalAlign="middle" textAlign="left" textColor="0xffffff" top="0" bottom="0" anchorOffsetX="0" width="-109" left="0"/>
-	<e:Label fontFamily="微软雅黑" text="{data.startTime}" size="20" verticalAlign="middle" textAlign="left" textColor="0xffffff" top="0" bottom="0" anchorOffsetX="0" width="121" right="0"/>
-</e:Skin>

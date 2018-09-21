@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="herosListIRSkin" width="132" height="42" xmlns:e="http://ns.egret.com/eui">
-	<e:Rect height="100%" width="100%" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="0" left="0" strokeWeight="4" fillColor="0xb58f8f"/>
-	<e:Label fontFamily="微软雅黑" textFlow="{data.flow}" size="20" textColor="0xFFFF00" verticalAlign="middle" verticalCenter="0" width="91%" height="100%" horizontalCenter="0"/>
-</e:Skin>

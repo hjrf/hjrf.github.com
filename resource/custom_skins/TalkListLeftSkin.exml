@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="TalkListLeftSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="60" height="60">
-	<w:Config id="1657b5c6620"/>
-	<e:Label size="20" textFlow="{data.flow}" verticalAlign="middle"  bold="true" textAlign="left" top="0" left="0" height="100%" width="100%"/>
-</e:Skin>

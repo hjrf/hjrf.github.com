@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="buff" width="63" height="52" xmlns:e="http://ns.egret.com/eui">
-	<e:Rect width="100%" height="100%" x="0" y="0" fillColor="0x665031" strokeWeight="6" strokeColor="0x4f0707"/>
-	<e:Label size="18" textColor="0xFFAC1C" textFlow="{data.name}"
-	        stroke="1" strokeColor="0" fontFamily="微软雅黑" verticalAlign="middle" top="0" width="79%" height="100%" horizontalCenter="0" textAlign="center"/>
-	
-</e:Skin> 

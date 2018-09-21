@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="itemSmallMap" width="56" height="46" xmlns:e="http://ns.egret.com/eui">
-	<e:Rect fillColor="0xad8585" left="0" right="0" top="0" bottom="0" strokeWeight="3" strokeColor="0xd10c0c" strokeAlpha="1" ellipseWidth="32"/>
-	<e:Label id="label" textFlow="{data.flow}" size="13" left="0" right="0" top="0" bottom="0" textAlign="center" verticalAlign="middle"/>
-</e:Skin>
